@@ -1,0 +1,476 @@
+
+
+body {
+    /* background-image: url("gradient2.jpg"); */
+    /* background-image: url("gradient2.jpg"); */
+    background-color: rgb(36, 36, 36);
+    background-size:cover;
+    background-position: center;
+    background-repeat:repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5%;
+    margin-top: 3%;
+    /* margin-right: 5%; */
+    /* padding-right: 8%; */
+    
+    /* background-: url("gradient3.jpg");
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 20px; */
+}
+.resume a{
+    color:lightblue;
+    text-decoration:underline;
+    font-size: 18px;
+    border-bottom: 3px solid;
+    border-top: 3px solid;
+    border-right: px;
+    
+}
+.programing{
+    /* font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 2px solid;
+    border-radius: 5px;
+    color: bisque;
+    border-color: bisque; */
+    /* border-top: 3px solid; */
+    /* border-bottom: 3px solid; */
+        /* border-radius: 5px; */
+        /* padding-bottom: 3px; */
+        border-color: bisque;
+        /* color: bisque; */
+        list-style-type: none;
+        display: inline-flex;
+        flex-direction: row;
+        padding-top: 5px;
+        padding-right: 15%;
+        padding-left: 25px;
+        /* padding-right: 25px; */
+        padding-bottom: 10px;
+        /* margin-right: 5%; */
+        font-size: 18px;
+}
+/* .listcolor{
+    color: bisque;
+}
+.listcolor li{
+    padding: 3px
+} */
+
+.resume a:hover{
+    color: aqua;
+}
+div {
+    padding-top: 40px;
+    position:absolute; 
+    float: right;
+    font-family: 'Lucida Sans',
+    'Lucida Sans Regular',
+    'Lucida Grande',
+    'Lucida Sans Unicode',
+    'Geneva',
+    'Verdana',
+    'sans-serif';
+    float:middle;
+    font-size: 16px;
+}
+.pic {
+    border-radius: 10px;
+    size: 15%;
+    display: flex;
+    float: right;
+    width: 30%;
+    border: 2px solid;
+    color: bisque;
+    margin-top: 4%;
+    margin-right: 5%;
+    position: middle;
+
+}
+div h3{
+    font-size: 18px;
+    color: bisque;
+    border-bottom: 3px solid;
+    display: flex;
+    flex-direction: column;
+    /* padding-bottom: 5px; */
+    float: top left;
+    
+    /* width: 50%; */
+    padding: 15px;
+    max-width: 50%;
+    border-radius: 5px;
+    background-color:rgb(36,36,36);
+    color: bisque;
+    /* background-size: auto; */
+    /* background-position: top; */
+    /* margin-right: 45%; */
+}
+/* div .logo {
+    size: 8%;
+    display: inline-flex;
+    /* position: static; 
+    float: top;
+    width: 18%;
+    height: auto;
+    margin-right: 20%;
+    border: none;
+    float: top;
+} */
+div p{
+    padding-top: 10px;
+    color: bisque;
+    margin-top: 8px;
+    line-height: 30px;
+    /* text-align: top left; */
+    float: top left;
+
+    /* float: left; */
+    margin-right: 40%;
+}
+/* nav{
+     background-image: url("gradient1.jpg"); 
+    background-size: auto;
+    background-position: 75%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+    
+} */
+nav h1{
+    /* padding-top: 15px; */
+    /* margin-left: 10px; */
+    padding-bottom: 15px;
+    font-size: 30px;
+    display: inline-flex;
+    color: bisque;
+    border: 3px solid;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: bisque;
+}
+/* nav ul{
+    display:inline;
+    padding-left: 700px;
+    /* padding-right: 150px; */
+    /* float: right; 
+    
+} 
+nav ul li{
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+    border-radius: 5px;
+    padding-bottom: 3px;
+    border-color: bisque;
+    color: bisque;
+    list-style-type: none;
+    display: inline;
+    padding-top: 5px;
+    padding-right:15%;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-right: 5%;
+    font-size: 18px;
+}
+nav ul li a{
+    color: bisque;
+    padding-bottom: 2px;
+}
+*/
+.about h3{
+    color: bisque;
+    background-color: rgb(36, 36, 36);
+    background-size: auto;
+    background-position: top;
+    border-radius: 5px;
+}
+/* .about p{
+    margin-top: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    margin-right: 50%;
+    color: bisque;
+    line-height: 30px;
+    font-size: 16px;
+    margin-bottom: 30px;
+    display: inline-flexbox;
+
+} */
+/* .about .project{
+    padding-left: 10px;
+    border: 2px solid;
+    font-size: 20px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    color: bisque;
+    display: inline;
+    /* display: inline; 
+} */
+
+.about dl{
+    margin-top: 2%;
+    margin-right: 10px;
+    line-height: 30px;
+    color: bisque;
+    padding: 10px;
+    margin-right: 40%;
+    font-size: 16px;
+    line-height: 25px;
+}
+.about hr{
+    clear: both;
+    visibility: hidden;
+    color: transparent;
+}
+.about dl dd {
+    /* border-bottom: 2px solid; */
+    padding-top: -5px;
+    padding-bottom: -15px;
+}
+.about dl dt{
+    border-bottom: 2px solid;
+    /* padding: 3px; */
+    color: bisque;
+    border-radius: 5px;
+    display: inline-flex;
+    clear: both;
+    font-size: 16px;
+} 
+.container{
+    display: flex;
+    /* justify-content: center; */
+    align-items: left;
+    justify-content:left;
+    background-image: url("gradient2.jpg");
+    min-height: 100vh;
+}
+.card{
+    padding-top: px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        min-height: 300px;
+        flex-direction: column;
+        gap: 35px;
+        border-radius: 15px;
+        border: 1px solid;
+        border-color: bisque;
+    /* background-image: url("gradient2.jpg"); */
+            box-shadow: 8px 8px 32px bisque, -8px -8px 32px bisque;
+        padding: 25px;
+        text-decoration: none;
+        width: 500px;
+}
+.soft{
+    gap: 25px;
+    justify-content: center;
+    display: flex;
+    box-shadow: 4px 4px 12px bisque, -4px -4px 12px bisque;
+    border-radius:15px;
+    width: 25%;
+    color: bisque;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding: 5px;
+}
+/* .box{
+
+width: 500px;
+} */
+/* .contact dl {
+    margin-top: 15%;
+    margin-left: 15%;
+    margin-right: 8%;
+    color: bisque;
+    font-size: 18px;
+}*/
+
+.box dt {
+    color: bisque;
+    /* border-right: 3px;
+    border-left: 3px; */
+    padding-bottom: 2px;
+    font-family: helvetica;
+    border-bottom: 3px solid;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    border-radius: 5px;
+    gap: 25px;
+    align-items: center;
+    
+}
+
+.box dd{
+    margin-top: 10px;
+    color: bisque;    
+    font-family: sans-serif;
+    justify-content: middle;
+    align-items: center;
+    float: middle;
+
+}
+.logos{
+    display: flex;
+    height:45px;
+    width: 45px;
+    flex-direction: row;
+    padding-right: 10px;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    gap: 10px;
+    
+    
+}
+/* .box dd a{
+    margin-top: 10px; 
+    color: lightblue;
+    font-family: sans-serif;
+    text-decoration:underline;
+    padding-top: 2px solid;
+    border-color: lightblue;
+    text-decoration-color: lightblue; 
+    text-decoration: none;
+    display: flex;
+}  */
+.box dd a:hover {
+    /* margin-top: 10px; */
+    color: bisque;
+}
+/* .button {
+    border: 1px solid;
+    padding: 5px;
+    border-color:bisque;
+    /* padding-right: 50px; 
+    border-radius: 15px;
+    display: inline-flex;
+ align-items:baseline;     
+    padding-right: 30%;
+    padding-left: 30%;
+} */
+.btn2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:200px;
+    height: 50px;
+    float: middle;
+    background: transparent;
+    border: 3px solid bisque;
+    text-align: center;
+    letter-spacing: 5px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+        margin-top: 10px;
+            font-size: 20px;
+    box-shadow: 0 0 0 bisque;
+    transition: ease-in .3s;
+        /* font-family:; */
+}
+.btn2 a {
+    color: bisque;
+    text-decoration: none;
+    transition: ease-in-out;
+}
+
+.btn2:hover {
+    box-shadow: 0 0 20px bisque;
+    inset: 200px 0 bisque;
+    background-color: rgb(120,
+            114,
+            114);
+    ;
+    opacity: 50;
+}
+
+.btn2:hover a {
+    color: bisque;
+}
+.btn1{
+    margin-top: 20px;
+    display: flex;
+    /* flex-direction:column; */
+    justify-content:center;
+    align-items:center;
+    float: right;
+    background: transparent;
+    border: 3px solid bisque;
+    text-align: center;
+    letter-spacing: 5px;
+    border-radius: 15px;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    box-shadow: 0 0 0 bisque;
+    transition: ease-in .3s;
+}
+.btn1 a {
+    color: bisque;
+    text-decoration: none;
+    transition: ease-in-out;
+}
+.btn1:hover {
+    box-shadow: 0 0 20px bisque;
+    inset: 200px 0 bisque;
+    background-color: rgb(120,
+            114,
+            114);
+    ;
+    opacity: 50;
+}
+.btn1:hover a {
+    color: bisque;
+}
+.btn {
+    /* color:Bisque;
+    box-shadow: 2px 2px 10px bisque, -2px -2px 10px bisque; */
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    border: 3px solid bisque;
+    cursor: pointer;
+    justify-content: center;
+    letter-spacing: 5px;
+    font-family: sans-serif;
+    font-weight: 800px;
+    align-items: center;
+    float: center;
+        font-size: 15px;
+    box-shadow: 0 0 0 white;
+    transition: ease-in .3s;
+}
+.btn a{
+color: bisque;
+text-decoration: none;
+transition: ease-in-out;
+}
+.btn:hover{
+box-shadow: 0 0 20px #fff;
+inset: 200px 0 #fff;
+    background-color: rgb(120,
+        114,
+        114);;
+        opacity: 50;
+}
+.btn:hover a{
+color: bisque;
+}
+/* .box a:hover {
+    color: lightblue;
+} */
+.box hr {
+    clear: both;
+    visibility: hidden;
+}
+a:hover {
+    color:lightblue;
+}
+a:link{
+    text-decoration: none;
+}

@@ -286,7 +286,7 @@ nav ul li a{
     /* gap: 25px; */
     justify-content: center;
     display: flex;
-   
+   letter-spacing: 5px;
     box-shadow: 6px 6px 24px #959595, -6px -6px 24px#fefefe;
     border-radius:15px;
     width: 25%;

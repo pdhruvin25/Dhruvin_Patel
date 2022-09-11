@@ -404,13 +404,12 @@ width: 500px;
 .btn2:hover {
 box-shadow: 4px 4px 8px white, -4px -4px 8px #959595;
     inset: 200px 0 black;
-    background-color: #959595;
-    opacity: 50;
-    border-color: black;
+    font-weight: bold;
+    border-color: bisque;
 }
 
 .btn2:hover a {
-    color: bisque;
+    color: black;
 }
 .btn1{
     margin-top: 20px;
